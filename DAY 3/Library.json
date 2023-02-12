@@ -1,0 +1,112 @@
+{
+  "library": {
+    "location": "Address of the library",
+    "description": "Description of the library",
+    "librarian": {
+      "name": "Librarian's Name",
+      "email": "Librarian's Email",
+      "phone": "Librarian's Phone"
+    },
+    "books": [
+      {
+        "title": "Book 1",
+        "ISBN": "A_123",
+        "author": "Author 1",
+        "preface": "Introduction to the book.",
+        "parts": [
+          {
+            "title": "Part 1",
+            "chapters": [
+              {
+                "title": "Chapter 1",
+                "summary": "Summary of Chapter 1.",
+                "sections": [
+                  {
+                    "title": "Section 1",
+                    "paragraphs": [
+                      "Paragraph 1 of Section 1.",
+                      "Paragraph 2 of Section 1."
+                    ]
+                  },
+                  {
+                    "title": "Section 2",
+                    "paragraphs": [
+                      "Paragraph 1 of Section 2.",
+                      "Paragraph 2 of Section 2."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Chapter 2",
+                "summary": "Summary of Chapter 2.",
+                "sections": [
+                  {
+                    "title": "Section 1",
+                    "paragraphs": [
+                      "Paragraph 1 of Section 1.",
+                      "Paragraph 2 of Section 1."
+                    ]
+                  },
+                  {
+                    "title": "Section 2",
+                    "paragraphs": [
+                      "Paragraph 1 of Section 2.",
+                      "Paragraph 2 of Section 2."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Book 2",
+        "ISBN": "B_123",
+        "author": "Author 2",
+        "preface": "Introduction to the book.",
+        "parts": [
+          {
+            "title": "Part 1",
+            "chapters": [
+              {
+                "title": "Chapter 1",
+                "summary": "Summary of Chapter 1.",
+                "sections": [
+                  {
+                    "title": "Section 1",
+                    "paragraphs": [
+                      "Paragraph 1 of Section 1.",
+                      "Paragraph 2 of Section 1."
+                    ]
+                  },
+                  {
+                    "title": "Section 2",
+                    "paragraphs": [
+                      "Paragraph 1 of Section 2.",
+                      "Paragraph 2 of Section 2."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Chapter 2",
+                "summary": "Summary of Chapter 2.",
+                "sections": [
+                  {
+                    "title": "Section 1",
+                    "paragraphs": [
+                      "Paragraph 1 of Section 1.",
+                      "Paragraph 2 of Section 1."
+                    ]
+                  },
+                  {
+                    "title": "Section 2",
+                    "paragraphs": [
+                      "Paragraph 1 of Section 2.",
+                      "Paragraph 2 of Section 2."
+                    ]
+                  }
+                ]
+              }
