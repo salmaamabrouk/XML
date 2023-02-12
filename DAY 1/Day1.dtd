@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT library (info, books+)>
+<!ELEMENT info (location, description, librarian)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT librarian (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT preface (#PCDATA)>
+<!ELEMENT book (title, author, preface, part*)>
+<!ATTLIST book ISBN ID #REQUIRED>
+<!ELEMENT author EMPTY>
+<!ATTLIST author name NMTOKEN "0">
+<!ELEMENT part (chapter*)>
+<!ATTLIST part PartTitle ID #REQUIRED>
+<!ELEMENT chapter (#PCDATA|summary|Sections)*>
+<!ATTLIST chapter ChapterTitle CDATA #REQUIRED>
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT Sections (p*)>
+<!ELEMENT p (#PCDATA)>
