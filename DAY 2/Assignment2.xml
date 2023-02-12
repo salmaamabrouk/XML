@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE library SYSTEM "Day1.dtd">
+<library>
+    <info>
+        <location>Location</location>
+        <description>Description</description>
+        <librarian>Librarian</librarian>
+    </info>
+    <books>
+        <book ISBN="SM_1">
+            <title>Title</title>
+            <author name="AUTHORNAME"></author>/>
+            <preface>Preface</preface>
+            <part PartTitle="PartOne">
+                <chapter ChapterTitle="1">
+                    <summary></summary>
+                    <section>
+                        <p>first content</p>
+                        <p>second content</p>
+                        <p>third content</p>
+                        <p>fourth content</p>
+                        <p>fifth content</p>
+                    </section>
+                </chapter>
+                <chapter ChapterTitle="2">
+                    <summary></summary>
+                    <section>
+                        <p>first content</p>
+                        <p>second content</p>
+                        <p>third content</p>
+                        <p>fourth content</p>
+                        <p>fifth content</p>
+                    </section>> 
+                </chapter>
+                <chapter ChapterTitle="3">
+                    <summary></summary>
+                    <section>
+                        <p>first content</p>
+                        <p>second content</p>
+                        <p>third content</p>
+                        <p>fourth content</p>
+                        <p>fifth content</p>
+                    </section>> 
+                </chapter>
+            </part>
+            <part PartTitle="PartTwo">
+                <chapter ChapterTitle="4">
+                    <summary></summary>
+                    <section>
+                        <p>first content</p>
+                        <p>second content</p>
+                        <p>third content</p>
+                        <p>fourth content</p>
+                        <p>fifth content</p>
+                    </section>
+                </chapter>
+                <chapter ChapterTitle="5">
+                    <summary></summary>
+                    <section>
+                        <p>first content</p>
+                        <p>second content</p>
+                        <p>third content</p>
+                        <p>fourth content</p>
+                        <p>fifth content</p>
+                    </section>> 
+                </chapter>
+                <chapter ChapterTitle="6">
+                    <summary></summary>
+                    <section>
+                        <p>first content</p>
+                        <p>second content</p>
+                        <p>third content</p>
+                        <p>fourth content</p>
+                        <p>fifth content</p>
+                    </section>> 
+                </chapter>
+            </part>
+            <part PartTitle="PartThree">
+                <chapter ChapterTitle="7">
+                    <summary></summary>
+                    <section>
+                        <p>first content</p>
+                        <p>second content</p>
+                        <p>third content</p>
+                        <p>fourth content</p>
+                        <p>fifth content</p>
+                    </section>
+                </chapter>
+                <chapter ChapterTitle="8">
+                    <summary></summary>
+                    <section>
+                        <p>first content</p>
+                        <p>second content</p>
+                        <p>third content</p>
+                        <p>fourth content</p>
+                        <p>fifth content</p>
+                    </section>> 
+                </chapter>
+                <chapter ChapterTitle="9">
+                    <summary></summary>
+                    <section>
+                        <p>first content</p>
+                        <p>second content</p>
+                        <p>third content</p>
+                        <p>fourth content</p>
+                        <p>fifth content</p>
+                    </section>> 
+                </chapter>
+            </part>
+        </book>          
+    </books>
+</library>

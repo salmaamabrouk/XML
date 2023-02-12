@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<BookStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="schema.xsd">
+    <Book Category="science" InStock="false">
+        <Title>Title One</Title>
+        <Author>Author One</Author>
+        <Date>05-03-1988</Date>
+        <ISBN>111</ISBN>
+        <Publisher>Publisher One</Publisher>
+    </Book>
+    <Book Category="fiction" InStock="true">
+        <Title>Title Two</Title>
+        <Author>Author Two</Author>
+        <Date>13-11-1970</Date>
+        <ISBN>222</ISBN>
+        <Publisher>Publisher Two</Publisher>
+    </Book>
+</BookStore>
