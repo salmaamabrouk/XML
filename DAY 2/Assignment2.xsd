@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="library">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="info" type="infoType"/>
+        <xs:element name="books" type="bookType" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="infoType">
+    <xs:sequence>
+      <xs:element name="location" type="xs:string"/>
+      <xs:element name="description" type="xs:string"/>
+      <xs:element name="librarian" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="bookType">
+    <xs:sequence>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="author" type="authorType"/>
+      <xs:element name="preface" type="xs:string"/>
+      <xs:element name="part" type="partType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="ISBN" use="required" type="xs:ID"/>
+  </xs:complexType>
+
+  <xs:complexType name="authorType">
+    <xs:simpleContent>
+      <xs:extension base="xs:NMTOKEN">
+        <xs:attribute name="name" use="optional" default="0"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="partType">
+    <xs:sequence>
+      <xs:element name="chapter" type="chapterType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="PartTitle" use="required" type="xs:ID"/>
+  </xs:complexType>
+
+  <xs:complexType name="chapterType">
+    <xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="summary" type="xs:string"/>
+        <xs:element name="Sections">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="p" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="ChapterTitle" use="required" type="xs:string"/>
+  </xs:complexType>
+</xs:schema>
